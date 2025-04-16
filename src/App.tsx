@@ -6,6 +6,7 @@ import { Carrito } from './components/Carrito';
 import { Usuario, Producto, CarritoItem } from './types';
 import { productos, anuncios } from './data';
 import { LogOut, ShoppingCart } from 'lucide-react';
+import logo from "../img/logo.jpg"
 
 function App() {
   const [usuario, setUsuario] = useState<Usuario | null>(null);
@@ -87,8 +88,14 @@ function App() {
     <div className="min-h-screen bg-gray-100">
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-1 py-3 flex justify-between items-center">
-          <img className="w-20 flex rounded-lg" src="/img/logo.jpg" alt="Logo" />
-          <h1 className="text-3xl font-bold text-gray-900">POCKETBEAM</h1>
+        <div className="flex items-center gap-3">
+            <img
+              src={logo}
+              alt="Logo"
+              className="h-10 w-auto rounded-lg"
+            />
+            <h1 className="text-3xl font-bold text-gray-900">POCKETBEAM</h1>
+          </div>
           <div className="flex items-center gap-4">
             <span className="text-gray-600">{usuario.email}</span>
             <button
