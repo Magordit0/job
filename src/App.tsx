@@ -136,7 +136,7 @@ function App() {
 
       <footer className="bg-gray-800 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p>&copy; 2024 ProyectoresPlus. Todos los derechos reservados.</p>
+          <p>&copy; 2025 pocketbeam. Todos los derechos reservados.</p>
         </div>
       </footer>
     </div>
