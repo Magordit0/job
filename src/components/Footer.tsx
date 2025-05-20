@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Instagram, Youtube, Projector, Mail, Phone, MapPin } from 'lucide-react';
+import { Youtube, Instagram, Projector, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -16,18 +16,14 @@ const Footer: React.FC = () => {
               Transform any space into your personal cinema with our cutting-edge projectors.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              
+              <a href="https://www.tiktok.com/@thepocketbeamoficial?is_from_webapp=1&sender_device=pc" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Youtube size={20} />
               </a>
+              <a href="https://www.instagram.com/pocketbeam?igsh=Mml0bHk5czE5cXh2" className="text-gray-400 hover:text-blue-400 transition-colors">
+                <Instagram size={20} />
+              </a>
+              
             </div>
           </div>
           

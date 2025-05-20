@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
           poster="https://es.web.img3.acsta.net/r_654_368/img/9f/96/9f9686ca7f97de3ad3e95ae096f486b9.jpg"
         >
           <source
-            src="https://player.vimeo.com/external/374053663.hd.mp4?s=ed92e2b7930cb8a5baa7399a6c5609cd93aca8e4&profile_id=175&oauth2_token_id=57447761"
+            src="https://youtube.com/shorts/fVReN64A8gg?si=qsJxS4bijcihn_PA"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -64,17 +64,16 @@ const Hero: React.FC = () => {
           </h2>
           <div className="max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl">
             <div className="aspect-w-16 aspect-h-9 relative">
-              <video
-                className="w-full h-full object-cover"
-                controls
-                poster="https://es.web.img3.acsta.net/r_654_368/img/9f/96/9f9686ca7f97de3ad3e95ae096f486b9.jpg"
-              >
-                <source
-                  src="https://player.vimeo.com/external/434045526.hd.mp4?s=81d19c0f4c34c1f2e8ce6b1054c1cb8c4d9ee714&profile_id=175&oauth2_token_id=57447761"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
+              <div className="w-full aspect-video">
+                <iframe 
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/fVReN64A8gg"
+                title="Video de YouTube"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                ></iframe>
+            </div>
             </div>
           </div>
           <div className="text-center mt-8">
