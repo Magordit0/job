@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
               <a href="https://www.tiktok.com/@thepocketbeamoficial?is_from_webapp=1&sender_device=pc" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Youtube size={20} />
               </a>
-              <a href="https://www.instagram.com/pocketbeam?igsh=Mml0bHk5czE5cXh2" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://www.instagram.com/_pocketbeam_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Instagram size={20} />
               </a>
               
@@ -35,9 +35,6 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/products" className="text-gray-400 hover:text-blue-400 transition-colors">Products</Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-gray-400 hover:text-blue-400 transition-colors">About Us</Link>
               </li>
               <li>
                 <Link to="/dashboard" className="text-gray-400 hover:text-blue-400 transition-colors">Dashboard</Link>
